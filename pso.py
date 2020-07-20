@@ -5,13 +5,13 @@ import random
 # 参数维度
 N = 10
 # 迭代次数
-H = 200
+H = 10
 # 粒子个数
 P = 100
 # 学习常数
 WMAX = 1
 WMIN = 0.5
-C1,C2 = 0.6,1
+C1,C2 = 0.6,3
 # 速度边界
 V_min = np.array([-20]*N)
 V_max = np.array([20]*N)

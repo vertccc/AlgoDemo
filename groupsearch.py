@@ -33,7 +33,7 @@ def fitness(x):
 
 xlst = [np.linspace(-30,30,100)] * 10
 
-n,topm = 1000,100
+n,topm = 1000,500
 
 
 j = 0
