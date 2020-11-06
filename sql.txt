@@ -1,0 +1,7 @@
+--INSERT INTO iris (sepal_width,petal_width,species) VALUES (1,2,'xx');
+
+--UPDATE iris SET sepal_width=4 WHERE species='xx';
+
+--SELECT sepal_width,sepal_length,petal_width FROM iris WHERE sepal_width=3 ORDER BY sepal_length DESC, petal_width DESC LIMIT 3;
+
+DELETE from iris where species = 'xx';
